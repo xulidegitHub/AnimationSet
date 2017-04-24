@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AnimationAsets"
+  s.name         = "AnimationAsetsFrameWork"
   s.version      = "1.0.1"
   s.summary      = "this is a animationAssets frameWork"
 
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "AnimationAsetsFrameWork/Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "pod/Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.frameworks = 'UIKit', 'MapKit'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
